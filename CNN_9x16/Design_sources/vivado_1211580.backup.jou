@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 10 12:03:01 2022
+# Process ID: 1211580
+# Current directory: /home/lsabetta/CNN_f/Design_sources
+# Command line: vivado
+# Log file: /home/lsabetta/CNN_f/Design_sources/vivado.log
+# Journal file: /home/lsabetta/CNN_f/Design_sources/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/lsabetta/CNN_f/Vivado/CNN/CNN.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb/tb_inst/layer1_out_temp1}} {{/tb/tb_inst/layer1_out_temp2}} {{/tb/tb_inst/layer1_out_temp3}} {{/tb/tb_inst/layer1_out_temp4}} {{/tb/tb_inst/layer1_out_temp5}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb/tb_inst/layer2_out}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/tb_inst/layer2_out_temp1}} {{/tb/tb_inst/layer2_out_temp2}} {{/tb/tb_inst/layer2_out_temp3}} {{/tb/tb_inst/layer2_out_temp4}} {{/tb/tb_inst/layer2_out_temp5}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb/tb_inst/layer1_out}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb/tb_inst/layer1_out_temp}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb/tb_inst/layer1_out_temp1}} 

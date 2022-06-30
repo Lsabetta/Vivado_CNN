@@ -1,0 +1,310 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:47 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 1217095
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Mar 10 12:07:12 CET 2022
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: Ubuntu
+OS Version: 5.13.0-27-generic
+OS Architecture: amd64
+Available processors (cores): 112
+
+Display: 23
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	/tools/XilinxSw/Vivado/2020.2/tps/lnx64/jre11.0.2
+Java executable location: 	/tools/XilinxSw/Vivado/2020.2/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	lsabetta
+User home directory: /home/lsabetta
+User working directory: /home/lsabetta/CNN_f/Design_sources
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/XilinxSw/Vivado
+HDI_APPROOT: /tools/XilinxSw/Vivado/2020.2
+RDI_DATADIR: /tools/XilinxSw/Vivado/2020.2/data
+RDI_BINDIR: /tools/XilinxSw/Vivado/2020.2/bin
+
+Vivado preferences file location: /home/lsabetta/.Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: /home/lsabetta/.Xilinx/Vivado/2020.2/
+Vivado layouts directory: /home/lsabetta/.Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	/tools/XilinxSw/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/lsabetta/CNN_f/Design_sources/vivado.log
+Vivado journal file location: 	/home/lsabetta/CNN_f/Design_sources/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-1217095-atlas-pc-trig-00
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/XilinxSw/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: /tools/XilinxSw/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: /tools/XilinxSw/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: /tools/XilinxSw/Vivado/2020.2
+XILINX_SDK: /tools/XilinxSw/Vitis/2020.2
+XILINX_VITIS: /tools/XilinxSw/Vitis/2020.2
+XILINX_VIVADO: /tools/XilinxSw/Vivado/2020.2
+XILINX_VIVADO_HLS: /tools/XilinxSw/Vivado/2020.2
+
+
+GUI allocated memory:	192 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,620 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,621 MB. GUI used memory: 71 MB. Current time: 3/10/22, 12:07:13 PM CET
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/lsabetta/CNN3/CNN3.xpr", 1); // r
+// [GUI Memory]: 92 MB (+93838kb) [00:00:10]
+// [Engine Memory]: 1,621 MB (+1548540kb) [00:00:10]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: /home/lsabetta/CNN3/CNN3.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/lsabetta/CNN3/CNN3.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/lsabetta/CNN3/CNN3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 100 MB (+4073kb) [00:00:14]
+// [GUI Memory]: 137 MB (+32983kb) [00:00:14]
+// [Engine Memory]: 1,708 MB (+5855kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  2023 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/XilinxSw/Vivado/2020.2/data/ip'. 
+// Tcl Message: INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 7417.133 ; gain = 64.164 ; free physical = 95768 ; free virtual = 301615 
+// Project name: CNN3; location: /home/lsabetta/CNN3; part: xcvu13p-flga2577-1-e
+dismissDialog("Open Project"); // bz
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CNN(Behavioral) (CNN.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CNN(Behavioral) (CNN.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 145 MB (+1243kb) [00:01:08]
+// Elapsed time: 21 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb(Behavioral) (tb.vhd)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb(Behavioral) (tb.vhd)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,785 MB. GUI used memory: 90 MB. Current time: 3/10/22, 12:08:18 PM CET
+selectCodeEditor("tb.vhd", 207, 787); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CNN.vhd", 1); // m
+// Elapsed time: 49 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CNN.vhd", 1); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lsabetta/CNN3/CNN3.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lsabetta/CNN3/CNN3.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: xvhdl --incr --relax -prj tb_vhdl.prj INFO: [VRFC 10-163] Analyzing VHDL file "/home/lsabetta/CNN3/CNN3.srcs/sim_1/imports/new/tb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'tb' Waiting for jobs to finish... No pending jobs, compilation finished. 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/lsabetta/CNN3/CNN3.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/lsabetta/CNN3/CNN3.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,817 MB. GUI used memory: 94 MB. Current time: 3/10/22, 12:09:48 PM CET
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// [Engine Memory]: 1,835 MB (+43368kb) [00:02:45]
+// WARNING: HEventQueue.dispatchEvent() is taking  1153 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [Engine Memory]: 2,238 MB (+326685kb) [00:02:46]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,853 MB. GUI used memory: 100 MB. Current time: 3/10/22, 12:09:50 PM CET
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message: # run 1000ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,854 MB. GUI used memory: 153 MB. Current time: 3/10/22, 12:09:54 PM CET
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,846 MB. GUI used memory: 113 MB. Current time: 3/10/22, 12:09:57 PM CET
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 8411.562 ; gain = 0.000 ; free physical = 95801 ; free virtual = 301650 xsim: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 8411.562 ; gain = 948.273 ; free physical = 95801 ; free virtual = 301650 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 8411.562 ; gain = 957.230 ; free physical = 95801 ; free virtual = 301650 
+// [GUI Memory]: 158 MB (+6291kb) [00:02:54]
+// 'd' command handler elapsed time: 20 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, tb_output1[0:-31]]", 3, true); // a - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,842 MB. GUI used memory: 109 MB. Current time: 3/10/22, 12:10:02 PM CET
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, tb_output2[0:-31]]", 4, true, true, false, false, false, false); // a - Shift Key - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, tb_output1[0:-31]]", 3, true, true, false, false, false, false); // a - Shift Key - Node
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, tb_output1[0:-31]]", 3, true, false, false, false, true, false); // a - Popup Trigger - Node
+selectMenu("Name"); // ah
+selectMenu("Signal Color"); // ah
+selectMenu("Radix"); // ah
+selectMenu("Radix"); // ah
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectMenuItem((HResource) null, "Real Settings..."); // ak
+// f (cr): Real Settings: addNotify
+selectRadioButton(RDIResource.WaveformRealSettingsDialog_FIXED_POINT, "Fixed point"); // a
+selectRadioButton(RDIResource.WaveformRealSettingsDialog_SIGNED, "Signed"); // a
+setSpinner(RDIResource.WaveformRealSettingsDialog_BINARY_POINT, "1"); // U
+setSpinner(RDIResource.WaveformRealSettingsDialog_BINARY_POINT, "31"); // U
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,843 MB. GUI used memory: 109 MB. Current time: 3/10/22, 12:10:15 PM CET
+dismissDialog("Real Settings"); // f
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 166 MB (+134kb) [00:11:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,844 MB. GUI used memory: 108 MB. Current time: 3/10/22, 12:40:18 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,844 MB. GUI used memory: 99 MB. Current time: 3/10/22, 1:10:18 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,844 MB. GUI used memory: 98 MB. Current time: 3/10/22, 1:40:18 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,844 MB. GUI used memory: 98 MB. Current time: 3/10/22, 2:10:18 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,844 MB. GUI used memory: 98 MB. Current time: 3/10/22, 2:40:18 PM CET
+// Elapsed time: 9458 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CNN.vhd", 0); // m
+// Elapsed time: 26 seconds
+selectCodeEditor("CNN.vhd", 395, 805); // bP
+selectCodeEditor("CNN.vhd", 416, 802); // bP
+// Elapsed time: 57 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 2); // m
